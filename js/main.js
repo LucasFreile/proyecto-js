@@ -3,7 +3,7 @@ const productos = [
   {id: 2, producto: "Block de hojas A4", precio: 12000},
   {id: 3, producto: "Cuaderno", precio: 6000},
   {id: 4, producto: "Folio A4", precio: 300},
-];
+]
 
 function mostrarProductos() {
   console.log("Productos disponibles:")
@@ -29,7 +29,7 @@ function simulacionLibreria() {
 
       if (input === null) {
         console.log("Selección cancelada. Saliendo del simulador.")
-        return;
+        return
       }
 
       let seleccion = parseInt(input)
