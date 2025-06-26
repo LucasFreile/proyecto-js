@@ -8,7 +8,7 @@ const productos = [
 function mostrarProductos() {
   console.log("Productos disponibles:")
   for (let i = 0; i < 4; i++) {
-    console.log(productos[i].id + " - " + productos[i].producto + ": $" + productos[i].precio);
+    console.log(productos[i].id + " - " + productos[i].producto + ": $" + productos[i].precio)
   }
 }
 
